@@ -1,0 +1,17 @@
+import { Box } from "@chakra-ui/react";
+
+const Footer = () => {
+    return (
+        <Box
+            textAlign="center"
+            p="5"
+            color="gray.600"
+            borderTop="1px"
+            borderColor="gray.100"
+        >
+            &#xa9; 2021 Realtor INC.
+        </Box>
+    );
+};
+
+export default Footer;
